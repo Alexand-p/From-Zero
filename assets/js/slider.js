@@ -1,4 +1,4 @@
-const slider = document.querySelector(".slider")
+const slider = document.querySelector(".slider");
 const trail = document.querySelector(".trail").querySelectorAll("div")
 
 let value = 0

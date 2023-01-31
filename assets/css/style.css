@@ -1,21 +1,101 @@
 *{
   box-sizing:border-box
 }
+a{
+  text-decoration: none;
+  font-family: 'Sofia Sans Extra Condensed', sans-serif;
+  color: #eab5be;
+  font-size: 25px;
+  -webkit-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+  padding: 5px 5px ;
+  margin: 10px 0;
+  border-radius: 4px;
+  font-weight: 300;
+}
+a:hover{
+  color: blue;
+  background-color: azure;
+  font-weight: 700;
+}
 .my-photo{
   border-radius: 50%;
   width: 250px;
   height: 200px;
-}
-.cv{
-  
+  z-index: -2;
+  position: relative;
 }
 .cv-container{
   display: flex;
 }
 .cv-container__left{
-  background-color: #3A3A3A;
-  width: 30%;
+  /* background-image: linear-gradient(rgba(10,10,10,0.4),pink); */
+  background-color: rgba(10,10,10,0.4);
+  width: 20%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  margin-right: 25px;
+  margin-top: 20px;
+  padding: 5px 2px;
+}
+.cv-container__left--position{
+  width: 70%;
 }
 .cv-container__rights{
   width: 70%;
+  display: flex;
+  align-items: end;
+}
+.header-general{
+  font-size: 45px;
+  font-family: 'Sofia Sans Extra Condensed', sans-serif;
+  font-weight: 600;
+  text-align: center;
+  margin: 45px 0;
+}
+.about-container__text{
+  text-align: center;
+}
+.about-container__text--item,.myBackround-container__item--text{
+  font-family: 'Sofia Sans Extra Condensed', sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+}
+.menu{
+  display: flex;
+  justify-content: end;
+  background-color: rgba(10, 10, 10, 0.2);
+  padding: 3px 10px;
+}
+.menu tbody{
+  display: flex;
+}
+.myBackround-container{
+  display: flex;
+  justify-content: center;
+}
+.myBackround-container__item{
+  margin-bottom: 40px;
+  max-width: 700px;
+  text-align: center;
+}
+.social-link:hover{
+  background: none !important;
+}
+.social-link__img{
+  filter: blur(5px);
+}
+.social-link__img:hover{
+  filter: blur(0px);
+}
+.cv-container__rights--table{
+ font-family: 'Sofia Sans Extra Condensed', sans-serif;
+ font-size: 25px;
+}
+.my-name{
+  font-family: 'Sofia Sans Extra Condensed', sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
 }
