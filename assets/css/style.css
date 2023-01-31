@@ -147,4 +147,7 @@ a:hover{
   .my-name{
     font-size: 20px;
   }
+  .social-link__img{
+    filter: blur(0px);
+  }
 }
