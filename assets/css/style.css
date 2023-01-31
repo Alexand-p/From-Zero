@@ -121,7 +121,7 @@ a:hover{
     justify-content: center;
   }
 }
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 800px) {
   .menu a{
     font-size: 15px;
   }
